@@ -1,0 +1,29 @@
+/*Feuille de style css pour 02_balises.html*/
+/*les éléments de la page stylés ci-dessous : éléments = balises*/
+body {
+    background-color: lightcyan;
+    color:#000;
+    border:2px solid fuchsia;
+}
+
+header {
+    background-color: #900c3f;
+    color: white;
+    height: 100px;
+}
+
+nav {
+    background-color: navy;
+    color: orangered;
+}
+
+article {
+    background-color: whitesmoke;
+    height: 80px;
+}
+
+/*une classe pour styler certaines zones de la page : les class sont introduites par le caractère point .*/
+
+.fond_jaune {
+    background-color: yellow;
+}
