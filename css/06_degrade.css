@@ -5,11 +5,21 @@ body {
 }
 
 .rectangle {
-    border: 1px solid red;
+    /* une couleur en dégradé pour la class .rectangle, un  dégradé qui démarre avec la 1ère couleur et finit avec la 2nde couleur, par défaut, de haut en bas. */
+    background: linear-gradient(to right, #40a497, #6840a4);
     /* largeur  */
     width: 45em;
     /* hauteur  */
     height: 45em;
     /* pas de marge (valeur 0) en haut et en bas et la valeur auto laisse le navigateur centrer l'élement  */
     margin: 0 auto;
+}
+
+.cercle {
+    background: linear-gradient(to left, #40a497, #6840a4);
+    width: 25em;
+    height: 25em;
+    margin: 0 auto;
+    /* la propriété border-radius permet d'arrondir plus ou moins les angles */
+    border-radius: 50%;
 }
