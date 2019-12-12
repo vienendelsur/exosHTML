@@ -2,11 +2,30 @@
 
 body {
     background-color: gainsboro;
+    color: white;
 }
 
-.cubitus {
-    background-color: gold;
+.c1, .c2 {
+    /* background-color: gold; */
     width: 150px;
     height: 150px;
-    border: 2px solid goldenrod;
+    margin: 5px;
+
+    float: left;
+
+    border: 10px solid white;
+    border-radius: 20%;
+
+    text-align: center;
+}
+
+.c1 {
+    background-color: darkorange;
+}
+
+.c2 {
+    background-color: brown;
+}
+.clear {
+    clear: both;
 }
