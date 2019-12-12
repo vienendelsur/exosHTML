@@ -1,0 +1,38 @@
+/* le style pour le premier zoning  */
+
+
+body {
+    width: 80%;
+    background-color: grey;
+    border: 1px solid white;
+    margin: 10px auto;
+    color: white;
+}
+
+#contenu {
+    background-color: pink;
+    border: 2px solid red;
+    margin: 5px;
+}
+
+header, footer {
+    height: 120px;
+    border: 1px solid olive;
+    background-color: lightskyblue;
+    text-align: center;
+    padding-top: 10px;
+}
+
+nav {
+    height: 60px;
+    background-color:lightsalmon;
+    padding-left: 40px;
+    /* padding-top: 5px; */
+}
+
+section {
+    border: 20px solid lightgrey;
+    height: 400px;
+    text-align: center;
+}
+
