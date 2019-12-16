@@ -7,14 +7,17 @@
     <title>Aide mémoire sur les sélecteurs css</title>
     <style>
     
-        /* * {
-            font-size: 300px;
-        }
-
     body {
-        font-size: 120%;
-    } */
-    
+        background-color:#f8c4ff;
+
+    }
+    h2 {
+        
+        font-weight: bolder;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
     </style>
 </head>
 <body>
@@ -33,9 +36,65 @@
             <li><mark>*</mark> : sélectionne TOUS les éléments de la page HTML</li>
             <li><mark>.ma-jolie-class</mark> : sélectionne tous les éléments ayant le nom de class "ma-jolie-class"</li>
             <li><mark>#mon-unique-id</mark> : sélectionne tous les éléments ayant le nom d'ID "mon-unique-id"</li>
-            <li><mark>div, aside, article</mark> : sélectionne toutes les balises &lt;div>, &lt;aside> et &lt;article></li>
-            <li><mark>nav a</mark> : </li>
-            <li><mark>nav a:hover</mark> : </li>
+            <li><mark>div, aside, article</mark> : sélectionne toutes les balises <code>&lt;div></code>, <code>&lt;aside></code> et &lt;article></li>
+            <li><mark>nav a</mark> : sélectionne les liens <code>&lt;a></code> imbriqués dans la balise <code>&lt;nav></code></li>
+            <li><mark>nav a:hover</mark> : sélectionne tous les liens de la nav et active une animation au survol de la souris</li>
+        </ul>
+
+    <h2>Propriétés CSS utilisées dans cette page</h2>
+        <h4>Décrivez leur usage et leurs valeurs possibles</h4>
+           <ol>
+                <li>
+                    Propriétés pour le texte
+                    <ul>
+                        <li>font-family : famille de typo dans un ordre de priorité</li>
+                        <li>font-size : taille de la typo, des caractères</li>
+                        <li>text-align : alignement du texte, à gauche à droite ou au centre</li>
+                        <li>line-height : interlignage, espace entre les lignes</li>
+                        <li>text-decoration : pour "décorer" le texte en ajoutant une ligne en dessous</li>
+                        <li>color : couleur de la typo, de la font ou du texte</li>
+                    </ul>
+                </li>
+
+                <li>
+                    Propriétés pour les éléments
+                    <ul>
+                        <li>background : arrière-plan d'un élément</li>
+                        <li>height : hauteur de l'élément</li>
+                        <li>width : largeur de l'élément : tous les deux par rapport à la taille de la fenêtre si on indique une valeur proportionnelle en % ou en em</li>
+                        <li class="agauche">left : position à partir de la gauche de la fenêtre du navigateur</li>
+                        <li>margin : marge extérieure d'un élément</li>
+                        <li>padding : marge intérieure d'un élément</li>
+                        <li>float : permet de sortir un élément du flux / effet "flottant"</li>
+                        <li>position : position de l'élément dans la page</li> 
+                        <li>top : position par rapport au haut de la fenêtre</li>
+                        <li>transition : temps de transition lors d'une animation</li>
+                    </ul>
+                </li>
+
+           </ol> 
+
+
+        <h2>Propriétés CSS à rechercher</h2>
+        <h4>Recherchez les propriétés ci-dessous, faites des tests avec ces propriétes sur cette page et depuis la console de débuggage testez les valeurs qu'elles peuvent prendre</h4>
+
+        <ul>
+            <li>font-weight :</li>
+            <li>letter-spacing :</li>
+            <li>word-spacing</li>
+            <li>text-shadow :</li>
+            <li>background-image :</li>
+            <li>background-size :</li>
+            <li>opacity :</li>
+            <li>border-style :</li>
+            <li>box-shadow :</li>
+            <li>list-style-image :</li>
+            <li>border :</li>
+            <li>border-radius :</li>
+            <li>border-width :</li>
+            <li>font-variant :</li>
+            <li>background-color :</li>
+            <li>!important :</li>
         </ul>
 </body>
 </html>

@@ -11,12 +11,16 @@ body {
     background-repeat: no-repeat;
     width: 260px;
     height: 194px;
-    border: 5px solid white;
+    border: 25px solid white;
     /* effet flottant : permet de placer des balises côte à côte alors que selon le flux du web standard les éléments se placent les uns au dessus des autres */
     float: left;
+    transition: border 1s;
 }
 
-
+/* on modifie au passage de la souris */
+.boite:hover {
+    border: 25px solid orange;
+}
 .clear {
     /* supprime l'effet flottant  */
     clear: both;
