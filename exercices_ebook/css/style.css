@@ -1,0 +1,14 @@
+/* feuille de style pour le dossier des exercices ebook  */
+
+body {
+    background-color: cornsilk;
+}
+
+/* styles pour la DL, les DT et les DD  */
+
+
+/* style pour bien voir les réponses aux questions  */
+.reponse {
+    background-color: gold;
+}
+
