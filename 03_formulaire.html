@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Un formulaire HTML</title>
-    <link rel="stylesheet" href="css/03_formulaire.css">
+    <!-- <link rel="stylesheet" href="css/03_formulaire.css"> -->
 </head>
 <body>
     <h1>Mon premier formulaire HTML</h1>
     <!--Le lien hypertexte qui nous emmène vers une autre page-->
-    <h2><a href="exos/02_bis_liens.html">Un lien vers la page des liens</a></h2>
-    <hr>
+    <h2>Un lien vers <a href="exos/02_bis_liens.html">la page des liens</a></h2>
+   
     <!-- je déclare le formulaire avec la balise form -->
     <form>
         <!-- les champs du formulaire et leurs étiquettes -->
@@ -35,7 +35,6 @@
             <!-- 3e champ du form : pseudo -->
             <label for="pseudo">Pseudonyme *</label>
             <input type="text" name="pseudo" id="pseudo" placeholder="Trouvez-vous un pseudo" required>
-    
             <!-- 4e champ du form : mdp -->
             <label for="mdp">Mot de passe *</label>
             <input type="password" name="mdp" id="mdp" placeholder="Votre mot de passe" required>
@@ -63,10 +62,8 @@
         <br>
         <!-- pour envoyer le form, un bouton (un btn...) -->
         <input type="submit" name="inscription" value="Envoyer">
-
         <!-- pour vider le formulaire -->
         <input type="reset" name="annuler" value="Effacer">
-
     </form>
 </body>
 </html>
